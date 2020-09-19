@@ -4,6 +4,12 @@
   "parameters": {
     "hostingPlanName": {
       "value": "devHostPlan"
+    },
+    "RazorAzureAppPackageFolder": {
+      "value": "RazorAzureResource"
+    },
+    "RazorAzureAppPackageFileName": {
+      "value": "package.zip"
     }
   }
 }
