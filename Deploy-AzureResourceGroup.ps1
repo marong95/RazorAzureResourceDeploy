@@ -22,7 +22,9 @@ Set-StrictMode -Version 3
 
 function Format-ValidationOutput {
     param ($ValidationOutput, [int] $Depth = 0)ttaaaattt
-    
+    fddddd
+    dfda
+    dfda
     Set-StrictMode -Off
     return @($ValidationOutput | Where-Object { $_ -ne $null } | ForEach-Object { @('  ' * $Depth + ': ' + $_.Message) + @(Format-ValidationOutput @($_.Details) ($Depth + 1)) })
 }
